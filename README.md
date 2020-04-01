@@ -28,7 +28,7 @@ Java、Pythonと、両言語を学習したが、実際に処理速度差はじ�
 検証中。
 
 # Development environment
-- Java 10.02
+- JDK 10.0.2
 - Python 3.6.8
   - numpy 1.16.3
   
