@@ -49,6 +49,7 @@ if pi_is_execution == True:
 
         pi = 0
         if __name__ == '__main__':
+        # 開始
             pi_start = time.time()
 
         for i in range(pi_accuracy):
