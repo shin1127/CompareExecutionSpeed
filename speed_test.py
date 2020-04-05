@@ -75,6 +75,7 @@ if pi_is_execution == True:
 if sum_is_execution == True:
     file = open("SpeedTestResultByPython.txt", "a")
     file.write("加算処理(sec)\n")
+    file.write("処理回数%d" % sum_count)
     for i in sum_test_date_list:
         file.write(str(i) + "\n")
     file.close()
@@ -82,6 +83,7 @@ if sum_is_execution == True:
 if pi_is_execution == True:
     file = open("SpeedTestResultByPython.txt", "a")
     file.write("近似処理(sec)\n")
+    file.write("近似の精度%d" % pi_accuracy)
     for i in pi_test_date_list:
         file.write(str(i) + "\n")
     file.close()
