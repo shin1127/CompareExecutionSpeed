@@ -1,17 +1,17 @@
 # CompareExecutionSpeed
 
-# Introduction
+## Introduction
 コンパイラ型言語Javaとインタプリタ言語Pythonの処理速度差を検証するのに用いるコンソールアプリケーション。<br>
 具体的には、『指定した数の加算処理』、『指定した精度での円周率の近似』を指定した回数だけ繰り返し行い、<br>
 その処理にかかったそれぞれの時間を計測し、更に平均値を算出する。<br>
 これらの機能を持ったコンソールアプリケーションを、JavaとPythonでそれぞれ作成した。<br>
 
 
-# Background
+## Background
 コンパイラ型言語とインタプリタ型言語では、機械語への翻訳処理の方法が異なる為に処理速度が大きく異なり、コンパイラ型言語のほうが速いことが知られている。<br>
 Java、Pythonと、両言語を学習したが、実際に処理速度差はじゅうぶんに存在するのか、またそれはどの程度のものなのかを知りたいと考えた。
 
-# Learning in the repositry
+## Learning in the repositry
 
 - Python
   - round関数による数字の丸め方について学んだ。
@@ -24,10 +24,10 @@ Java、Pythonと、両言語を学習したが、実際に処理速度差はじ�
   - 変数の命名に気を使い、名前からそれが何を示す変数か推測しやすくした。
   - PythonのTimeライブラリなどを用いた現在時刻の取得を利用して、ターゲットとなる処理にかかった時間を計測する方法を学んだ。
 
-# Result
-検証中。
+## Result
+取得したデータの整理中。
 
-# Development environment
+## Development environment
 - JDK 10.0.2
 - Python 3.6.8
   - numpy 1.16.3
